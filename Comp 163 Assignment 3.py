@@ -2,37 +2,39 @@ print("================================================================")
 print("            PERSONAL ACADEMIC & LIFE PORTFOLIO            ")
 print("================================================================")
 
-print("Student: Jordan Smith | Email: jsmith@ncat.edu")
-print("From: Charlotte, NC | Graduating: Spring 2028")
-print("Major: Computer Science")
+print("Student: Ciara Weldon | Email: cweldon@ncat.edu")
+print("From: Washington, DC | Graduating: Spring 2029")
+print("Major: Computer Engineering")
 
 print("=== ACADEMIC PROFILE ===")
-print("Current Semester: 12 credits across 4 courses")
+print("Current Semester: 15 credits across 5 courses")
 print("Cumulative GPA: 3.48")
 print("Weekly Study Time: 25 hours")
 print("Academic Investment: $5.0 per study hour")
 
-current_courses = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
+current_courses = ["COMP 163", "MATH 131", "ENG 101", "ECEN 101", "GEEN 100"]
 courses_credits = {
-    current_courses[0]: "3 credits - Prof. Rhodes - M-Eric 300",
-    current_courses[1]: "3 credits - Dr. Lee - Marteena 201",
-    current_courses[2]: "3 credits - Dr. Martinez - Crosby 121",
-    current_courses[3]: "3 credits - Dr. Brown - Crosby 210",
+    current_courses[0]: "3 credits - Prof. Rhodes - Gibbs 334",
+    current_courses[1]: "3 credits - Prof. Arshagi - Marteena 201",
+    current_courses[2]: "3 credits - Prof. White - GCB 212",
+    current_courses[3]: "3 credits - Prof. Horne - McNair 214",
+    current_courses[4]: "3 credits - Prof. Parrish - McNair 214",
 }
 print("Current Courses:")
 print(current_courses[0], "-", courses_credits[current_courses[0]])
 print(current_courses[1], "-", courses_credits[current_courses[1]])
 print(current_courses[2], "-", courses_credits[current_courses[2]])
 print(current_courses[3], "-", courses_credits[current_courses[3]])
+print(current_courses[4], "-", courses_credits[current_courses[4]])
 
 print("=== PERSONAL DEVELOPMENT ===")
-current_skills = {"Time management", "Photography", "Problem solving",  "HTML", "Python basics"}
+current_skills = {"Time management", "Circuits", "Problem solving",  "JavaScript", "Python basics"}
 skills_set = current_skills
 print("Current Skills:", skills_set)
-learn_skills = {"Data structures", "Web design", "JavaScript", "Git", "Public speaking"}
+learn_skills = {"Data structures", "Web design", "Java", "Git", "Public speaking"}
 skills_learn = learn_skills
 print("Learning Goals:", skills_learn)
-career_interests = {"Software development", "Game development", "Web development", "Data science"}
+career_interests = {"Software development", "Program Management", "Web development", "Data science"}
 skills_career = career_interests
 print("Career Interests:", skills_career)
 skills_have = len(skills_set)
